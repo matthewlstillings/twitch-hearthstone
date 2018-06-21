@@ -1,0 +1,18 @@
+.header {
+    margin: auto;
+    background: lighten(#B7A3DB, 20%);
+    max-width: 999px;
+    color: $primary;
+    padding: $medium-size 0 $large-size;
+}
+
+.header__title {
+    font-size: $xl-size;
+    margin: 0 0 $large-size;
+    font-weight: 900;
+}
+
+.header__logo {
+    width: 50px;
+    fill: $primary;
+}

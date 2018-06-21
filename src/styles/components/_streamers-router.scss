@@ -1,0 +1,65 @@
+//All Page
+
+.streams__container {
+    margin: auto;
+    background: $primary;
+    padding: $xl-size $s-size;
+    min-height: 70vh;
+}
+
+.nav__links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+a {
+    color: white;
+    text-decoration: none; 
+    font-size: $large-size;
+    //border-left: 1px solid black;
+    background: $primary;
+    padding: $s-size;
+    margin: 0;
+    flex-grow: 1;
+}
+
+.is-active {
+    color: #DAEB4E;
+    top: 0px;
+}
+
+.router__container {
+   max-width: 999px;
+}
+
+
+
+//Online Page
+
+.nav__link--online {
+ background: lighten($primary, 5%);
+}
+
+.streams__container--online {
+    background: lighten($primary, 5%);
+}
+
+.stream__online.stream--offline {
+    display: none;
+}
+
+//Offline Page
+
+.nav__link--offline {
+    background: lighten($primary, 10%);
+}
+
+.streams__container--offline {
+    background: lighten($primary, 10%);
+}
+
+.stream__offline.stream--online {
+    display: none;
+}
